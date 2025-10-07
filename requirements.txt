@@ -1,12 +1,2 @@
-import telebot
-
-BOT_TOKEN = "توکن_ربات_خودت"
-
-bot = telebot.TeleBot(BOT_TOKEN)
-
-@bot.message_handler(commands=['start'])
-def start(message):
-    bot.reply_to(message, "سلام! من فعالم 😄")
-
-print("✅ Bot is running...")
-bot.polling()
+pyTelegramBotAPI
+requests
